@@ -17,8 +17,8 @@ def get_info(request):
         "current_day": datetime.now().strftime('%A'),
         "utc_time": utc_time,
         "track": track,
-        "github_file_url": "https://github.com/Tomilola-ng/repo/blob/main/file_name.ext",
-        "github_repo_url": "https://github.com/Tomilola-ng/HNGX",
+        "github_file_url": "https://github.com/Tomilola-ng/TrackBackendTask1/blob/main/api/views.py",
+        "github_repo_url": "https://github.com/Tomilola-ng/TrackBackendTask1",
         "status_code": 200
     }
 
