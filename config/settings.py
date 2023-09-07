@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-r=)tmp)-vakic^mu)uu3+#7t7a36htz(ild!vf@moi8z9ga-69
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["hngx-backend-track-task1.onrender.com","*"]
 
 
 # Application definition
