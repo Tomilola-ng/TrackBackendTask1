@@ -6,7 +6,7 @@ from api.views import get_info
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', get_info, name="get_info"),
+    path('api/', get_info, name="get_info"),
 ]
 
 if not settings.DEBUG:
